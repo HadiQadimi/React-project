@@ -1,0 +1,83 @@
+.navigation{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    direction: rtl;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation:hover{
+    transform: scale(1.1);
+    
+}
+.tellus{
+    width: 400px;
+    margin: 50px auto;
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px black;
+    
+    border-radius: 15px;
+}
+.btnsubmit{
+    width: 20px;
+    height: 5px;
+    background-color: white;
+    color: black;
+}
+.img{
+    padding: 50px 5px;
+    width: 780px;
+    height: 400px;
+    margin: 30px auto;
+    background-color: blueviolet;
+    border-radius: 5px;
+
+}
+.imgsrc1{
+    background-image: url('../image/food-01.png' );
+    background-size:cover;
+    background-position: center;
+    width: 600px;
+    
+    
+}
+.contact{
+    margin: 20px auto;
+    text-align: center;
+    width: 600px;
+}
+@media screen and (max-width: 630px){
+    .contact{
+        width: auto;
+    }
+}
+.menuitem {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,1fr);
+    grid-template-rows: auto;
+}
+    .respons{
+        margin: 10px;
+        display:grid;
+        grid-template-columns: repeat(4,minmax(200px,1fr));
+        position: relative;
+    }
+    @media screen and (max-width: 1059px){
+        .respons{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); 
+             grid-column-gap: 1px;
+             grid-row-gap: 4px; 
+
+
+       }
+ 
+    }
+.modal-body{
+      width: auto;
+}
+
+  
