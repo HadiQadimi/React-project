@@ -1,14 +1,14 @@
 import React from "react";
 import {Navbar,Container,Nav} from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import {logo} from '../../assets/image/logo192.png';
+
 import "../../assets/css/main.css";
 const Navigation=()=>{
     return(
         <div >
              <Navbar  expand="lg">
       <Container className="navlink" >
-        <Navbar.Brand ><Link to="/" className="navigation"><img  src="logo192.png" width={60}></img></Link></Navbar.Brand>
+        <Navbar.Brand ><Link to="/" className="navigation"><img alt=""  src="logo192.png" width={60}></img></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav >

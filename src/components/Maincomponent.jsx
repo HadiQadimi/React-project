@@ -2,13 +2,13 @@ import React from "react";
 import Body from '../components/Body/Body.jsx';
 import Footer from '../components/Footer/Footer.jsx';
 import Header from '../components/Header/Header.jsx';
+
 const Maincomponent=()=>{
     return(
         <div>
-       <Header />
-       <Body />
-       <Footer />
-       
+            <Header />
+                <Body />
+            <Footer />       
         </div>
     )
 }
