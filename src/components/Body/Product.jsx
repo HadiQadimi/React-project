@@ -4,8 +4,7 @@ export class Product extends Component {
   render() {
     return (
       <div>
-        <Menu/>
-        
+        <Menu/>        
       </div>
     )
   }

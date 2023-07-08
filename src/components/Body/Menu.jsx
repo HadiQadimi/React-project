@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import dishes from '../../data/Dishes.js';
 import Menuitems from './Menuitems.jsx';
-import Product from './Product.jsx';
+
 import DishDetail from './DishDetail.jsx';
-import MediaQuery  from "react-responsive";
-import { Container , Row, Modal, Button } from "react-bootstrap";
+
+import { Container , Modal, Button } from "react-bootstrap";
 
 export class Menu extends Component {
     state={
